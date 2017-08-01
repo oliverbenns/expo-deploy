@@ -3,7 +3,8 @@
 # Deploy script for Expo
 # Usage: Create app.json files in config folder with environment
 # as file name. E.g. ./config/production.json || ./config/staging.json.
-  # Run this script with `./deploy [task] [environment]`.
+# Run this script with `./deploy [task] [environment]`.
+# Author: @oliverbenns
 
 TASK=$1 # "build" or "publish"
 ENVIRONMENT=$2 # "production", "staging" etc.

@@ -1,6 +1,7 @@
 # Expo Deploy
 
 Bash script to deploy to different [Expo](https://expo.io) environments.
+
 It switches the relevant json file to be `app.json` before running the correct commands.
 
 ## Setup

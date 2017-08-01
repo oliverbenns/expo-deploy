@@ -1,17 +1,19 @@
 # Expo Deploy
 
 Bash script to deploy to different [Expo](https://expo.io) environments.
+It switches the relevant json file to be `app.json` before running the correct commands.
 
 ## Setup
 
   - `npm install exp -g`
   - Place the deploy script in your root directory
   - Add the relevant config files as shown in this example repository
+  - Add `/app.json` to your `.gitignore`.
 
 ## Usage
 
-  - *Publish:* `./deploy publish [environment]`
-  - *Build:* `./deploy build [environment]` (builds both IPA + APK files)
+  - **Publish:** `./deploy publish [environment]`
+  - **Build:** `./deploy build [environment]` (builds both IPA + APK files)
 
 ### Local Exp
 

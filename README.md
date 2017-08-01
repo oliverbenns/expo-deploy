@@ -15,6 +15,7 @@ It switches the relevant json file to be `app.json` before running the correct c
 
   - **Publish:** `./deploy publish [environment]`
   - **Build:** `./deploy build [environment]` (builds both IPA + APK files)
+  - **Development:** You'll want to copy the correct app file manually. E.g: `cp ./config/staging.json ./app.json && react-native-scripts start`. I haven't thought of a better way to do this yet.
 
 ### Local Exp
 

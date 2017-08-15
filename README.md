@@ -27,4 +27,4 @@ It's also possible to have [exp](https://github.com/expo/exp) installed locally.
         "publish": "chmod +x ./deploy.sh && ./deploy.sh publish $ENVIRONMENT",
         "build": "chmod +x ./deploy.sh && ./deploy.sh build $ENVIRONMENT"
       ```
-    - Run with`--ENVIRONMENT=staging npm run publish` or `--ENVIRONMENT=staging npm run build`
+    - Run with`ENVIRONMENT=staging npm run publish` or `ENVIRONMENT=staging npm run build`

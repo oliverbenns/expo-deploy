@@ -22,7 +22,7 @@ fi
 if [ "$TASK" == "publish" ] && [ "$ENVIRONMENT" == "production" ]
 then
   while true; do
-      read -p "Warning: You are about to publish to production. Are you sure you wish to proceed?" yn
+      read -p "Warning: You are about to publish to production. Are you sure you wish to proceed? (y/n)" yn
       case $yn in
           [Yy]* ) break;;
           [Nn]* ) exit;;

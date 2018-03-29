@@ -1,6 +1,7 @@
-# Expo Deploy
+#### ⚠️ Update
+Expo now supports [Release Channels](https://docs.expo.io/versions/latest/guides/release-channels.html)! This script was created before that feature existed. You probably want to use them instead.
 
-⚠️ Update: Expo now supports [Release Channels](https://docs.expo.io/versions/latest/guides/release-channels.html)! This script was created before this feature existed. You probably want to use them instead.
+# Expo Deploy
 
 Bash script to deploy to different [Expo](https://expo.io) environments.
 

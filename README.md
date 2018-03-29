@@ -1,5 +1,7 @@
 # Expo Deploy
 
+⚠️ Update: Expo now supports [Release Channels](https://docs.expo.io/versions/latest/guides/release-channels.html)! This script was created before this feature existed. You probably want to use them instead.
+
 Bash script to deploy to different [Expo](https://expo.io) environments.
 
 It switches the relevant json file to be `app.json` before running the correct commands.
